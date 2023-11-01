@@ -1,1 +1,1 @@
-web: vendor/bin/heroku-php-mysql public/
+web: heroku-php-mysql public/
