@@ -32,7 +32,16 @@ if (file_exists($maintenance = __DIR__.'/../storage/framework/maintenance.php'))
 */
 
 require __DIR__.'/../vendor/autoload.php';
+$app = new \Slim\Slim();
 
+$app->get('/usuarios', function () use ($app) {
+    // Lógica para manejar la petición GET en /endpoint
+    $app->response->setStatus(200);
+    $app->response->headers->set('Content-Type', 'application/json');
+    echo json_encode($response);
+});
+
+$app->run();
 /*
 |--------------------------------------------------------------------------
 | Run The Application
