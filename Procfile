@@ -1,1 +1,1 @@
-web: heroku-php-mysql api/
+web: heroku-php-mysql public/
