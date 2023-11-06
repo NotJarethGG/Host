@@ -1,1 +1,1 @@
-web: heroku-php-mysql public/index.php
+web: stackhero start public/index.php
