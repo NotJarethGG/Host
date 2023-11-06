@@ -1,1 +1,1 @@
-web: ah-mariadb-stackhero-aerodynamic-84357 start public/index.php
+web: ah-mysql-stackhero-aerodynamic-84357 start public/index.php
